@@ -1,0 +1,49 @@
+extends base.pug 
+
+block style
+    style
+      include ../static/style.css
+      
+
+block content
+    section#welcome 
+      div#one Welcome to Ravi's Raga 
+      div#two Revolution in the music industry 
+
+    section#mission
+        h1 Our Course    
+        div#display  
+            div.card
+                p Beginner
+                div.box  
+                    div.img  
+                        img(src="../static/1.jpeg", alt="")
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus!
+                
+                
+
+            div.card
+                p Advanced 
+                div.box  
+                    div.img  
+                        img(src="../static/3.png", alt="")
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus!
+            div.card
+                p classical
+                div.box  
+                    div.img  
+                        img(src="../static/2.png", alt="")
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus!
+
+
+    section#sponsor 
+        h1 Our sponsor
+            div#section
+                img(src='../static/jio.png', alt="" class ="spImage")
+                img(src="../static/Microsoft.png", alt="" class ="spImage")
+                img(src="../static/adani.jpg", alt="" class ="spImage")
+                img(src="../static/sequoia.png", alt="" class ="spImage")
+
+block footer 
+    footer#footer
+        | Copyright © 2023 RaviRaga.com | All Rights Reserved

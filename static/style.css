@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Logo */
+
+#navbar img {
+    height: 4rem;
+    display: inline-block;
+    filter: invert(1);
+    border-radius: 100px;
+}
+#logo {
+    left: -16rem;
+    position: relative;
+}
+/* navigation bar */
+#navbar {
+    background-color: #B38138;
+    position: sticky;
+}
+.navbar.navbar-trans.afterscroll { 
+    background-color:#1ba4df; 
+    Transition:0.3s all linear;
+    }
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    padding: 12px 23px;
+    justify-content: center;
+    position: sticky;
+}
+
+#navbar ul li {
+    
+    padding: 18px 43px;
+    margin: 4px 12px;
+    font-size: 1.3rem;
+    list-style: none;
+
+}
+
+
+#navbar ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#navbar ul li a:hover {
+    color: rgb(219, 189, 20);
+}
+
+/* welcome content */
+#welcome {
+    height: 500px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('/static/bg1.jpg') no-repeat center center/cover ;
+    opacity: 1.5;
+}
+
+#one {
+    font-family: 'Satisfy', cursive;        
+    font-size: 6rem;
+    color: orange;
+    
+}
+#two {
+    font-family: 'Satisfy', cursive;     
+    font-size: 1.5rem;
+    color: orange;
+    
+}
+
+/* misssion content */
+#mission {
+    background-color: aliceblue;
+    height: 450px;
+    text-align: center;
+    color: black;
+    font-family: 'Satisfy', cursive;     
+    font-weight: bold;
+    font-size: 2rem; 
+    
+    
+    
+}
+
+.card{
+    background-color: beige;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 28%;
+    margin: 23px 20px;
+    height: 18rem;
+    font-size: 1.8rem; 
+}
+.img {
+    height: 100px;
+    padding: 1px 12px;
+}
+.img img {
+    height: inherit;
+    padding: 1px 12px;
+}
+#display {
+    display: flex;
+    flex-direction: row;
+    margin: 12px auto;
+    margin-left: 65px;
+    
+}
+
+/* sponsor content  */
+#sponsor {
+    height: 400px;
+    background-color: #9c004a ;
+    color: white;
+    text-align: center;
+    font-family: 'Satisfy', cursive;     
+    font-weight: bold;
+    font-size: 2rem;    
+}
+
+#section{
+    height: 320px;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.spImage{
+    height: 140px;
+    margin: 35px;
+    padding: 12px 34px;
+    
+}
+
+   
+
+/* footer content */
+#footer{
+    height: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}

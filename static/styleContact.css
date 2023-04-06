@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+h1 {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-family: 'Satisfy', cursive;   
+    font-size: 3rem;
+}
+
+.input{
+    display: block;
+    width: 33rem;
+    height: 3rem;
+    padding: 2px 23px;
+    margin: 17px 12px;
+    font-size: 16px;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    outline: none;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 34px ;
+}
+
+.btn {
+    background-color: pink;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+    padding: 3px 12px;
+    font-size: large;
+    border-radius: 10px;
+
+}
+.container {
+    min-height: 82vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
